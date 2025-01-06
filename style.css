@@ -1,0 +1,88 @@
+body {
+    border-radius: rounded;
+    text-align: center;
+
+  }
+
+#hero-section{
+    height: 400px;
+    /*background-image:
+        linear-gradient(rgba(0,0,0.1),     
+        rgba(0,0,0,.25)),
+      url("img/redBack.jpg");*/
+    background-color: black;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 2px #b37700;
+    text-align: center;
+}
+
+#hero-section h1{
+    padding: 200px;
+}
+
+#Animals-section{
+    position:relative;
+}
+
+#Animals-section h2{
+    padding: 100px;
+}
+
+
+.image-carousel {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    gap: 10px;
+    padding: 10px;
+}
+
+.image-carousel img {
+    width: 150px;
+    height: auto;
+    flex-shrink: 0; /* Prevent images from shrinking */
+    border-radius: 5px; /* Optional */
+}
+
+#sugarGliders{
+    background-color:white;
+}
+
+#chinchillas{
+    background-color:white;
+}
+
+
+#About-Us-Section{
+    padding: 50px;
+    /*background-image:
+        linear-gradient(rgba(0, 0, 0, 0.982),     
+        rgba(0, 0, 0, 0.701)),
+      url("img/redBack.jpg");*/
+    background-color: black;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#About-Us-Section h1{
+    width:80%;
+    margin-left: 100px;
+}
+
+#About-Us-Section h3{
+    width:80%;
+    margin-left: 100px;
+}
+
+#About-Us-Section p{
+    width:80%;
+    margin-left: 100px;
+
+}
+
+.container-fluid {
+    display: flex;
+}
