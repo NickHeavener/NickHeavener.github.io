@@ -1,15 +1,12 @@
 body {
     border-radius: rounded;
     text-align: center;
+    overflow-x:hidden
 
   }
 
 #hero-section{
     height: 400px;
-    /*background-image:
-        linear-gradient(rgba(0,0,0.1),     
-        rgba(0,0,0,.25)),
-      url("img/redBack.jpg");*/
     background-color: black;
     color: white;
     background-size: cover;
@@ -56,10 +53,6 @@ body {
 
 #About-Us-Section{
     padding: 50px;
-    /*background-image:
-        linear-gradient(rgba(0, 0, 0, 0.982),     
-        rgba(0, 0, 0, 0.701)),
-      url("img/redBack.jpg");*/
     background-color: black;
     color: white;
     background-size: cover;
